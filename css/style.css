@@ -53,7 +53,7 @@ display: none;
 /* Banner */
 
 .banner__main{
-    background-color: #ed1c24;
+   background-image: url(../img/banner.png);
 
 }
 .pizza{
@@ -63,7 +63,7 @@ display: none;
 }
 .banner {
     color:#fff;
-    padding-top: 260px;
+    padding-top: 270px;
     padding-bottom: 285px;
     max-width: 1185px;
     margin: 0 auto;
@@ -185,21 +185,6 @@ display: none;
     border-bottom: 4px solid #ee252d;
 }
 
-.menu__wrapper a::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 auto;
-    display: block;
-    width: 0;
-    height: 0;
-    border: 7px solid transparent;
-    border-bottom: 7px solid #ee252d;
-
-}
-
 .box{
     max-width: 1185px;
     margin: 0 auto;
@@ -300,7 +285,7 @@ display: none;
 }
 
 footer{
-    background-color: #ee252d;
+    background-image: url(../img/footer.png);
     padding: 30px 0;
 
 }
@@ -317,4 +302,66 @@ footer{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 800px;
+    }
+    .pizza {
+        display: none;
+    }
+    .banner {
+        padding-top: 76px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+    }
+    .wrapper__h2, .box-text h3 {
+        font-size: 35px;
+    }
+    .wrapper__h2 p {
+        font-size: 18px;
+    }
+    .menu__wrapper li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .box {
+        flex-direction: column;
+    }
+    .box__item {
+        padding: 30px 55px 24px 55px;
+    }
+    .box__tex {
+        border-right: none;
+        padding-right: 0;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .box__item:last-child .box-text {
+        border-bottom: none
+    }
+}
+@media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+    .nav__ul {
+        margin-top: 34px;
+    }
+    .wrapper__h2::before, .h2::after {
+        display: none;
+    }
+    .box__link {
+        font-size: 20px;
+        background-size: contain;
+    }
+    .footer {
+        padding: 13px 0;
+        font-size: 15px;
+    }
+
+    .banner{
+        padding-left: 25px;
+    }
 }
