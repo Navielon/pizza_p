@@ -15,7 +15,7 @@ nav{
 
 .wrap {
     padding: 0px 15px;
-    max-width: 1170px;
+    max-width: 1185px;
     margin: 0 auto;
 }
 .header__logo {
@@ -32,14 +32,14 @@ nav{
 
 }
 .nav__ul li{
-    padding-left: 20px;
-    margin-left: 22px;
+    padding-left: 0px;
+    margin-left: 17px;
     
 }
 .nav__ul li::after{
     content: '';
     border-right: 2px solid #494949;
-    padding-left: 30px;
+    padding-left: 35px;
 }
 
 .nav__ul li:last-child::after{
@@ -59,15 +59,16 @@ display: none;
 .pizza{
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 60px;
 }
 .banner {
     color:#fff;
-    padding-top: 260px;
+    padding-top: 215px;
     padding-bottom: 285px;
-    max-width: 1170px;
+    max-width: 1185px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 85px;
 
 }
 .titile__wrapper{
@@ -81,8 +82,8 @@ display: none;
     line-height: 30px;
     max-width: 570px;
     font-weight: 400;
-    margin-bottom: 55px;
-    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-top: 6px;
 }
 
 .link__wrapper{
@@ -93,7 +94,7 @@ display: none;
     text-transform: uppercase;
     font-weight: 800;
     border: 2px solid #fff;
-    padding: 16px 32px;
+    padding: 11px 32px;
 }
 .wrapper {
 }
@@ -105,7 +106,9 @@ display: none;
 /* Page */
 
 .wrapper__center{
-   text-align: center;
+    max-width: 1185px;
+    margin: 0 auto;
+    text-align: center;
 }
 .wrapper__h2{
     font-size: 45px;
@@ -200,7 +203,7 @@ display: none;
 }
 
 .box{
-    max-width: 1170px;
+    max-width: 1185px;
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
@@ -281,7 +284,7 @@ display: none;
 /* Links */
 
 .box__links{
-    max-width: 1170px;
+    max-width: 1185px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 95px;
